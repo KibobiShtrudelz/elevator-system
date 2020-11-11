@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Elevator System</title>
+
+    <link rel="shortcut icon" href="elevator.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script async src="./elevatorSystem.js"></script>
+  </head>
+
+  <body>
+    <div class="building">
+      <div class="left-side">
+        <div class="l-floor">
+          <div class="l-btn-wrapper">
+            <button id="l-btn-6" class="l-button" onclick="callElevator('l', 6)">6</button>
+          </div>
+
+          <div id="l-e-6" class="l-elevator" data-floor="6"></div>
+        </div>
+
+        <div class="l-floor">
+          <div class="l-btn-wrapper">
+            <button id="l-btn-5" class="l-button" onclick="callElevator('l', 5)">5</button>
+          </div>
+
+          <div id="l-e-5" class="l-elevator" data-floor="5"></div>
+        </div>
+
+        <div class="l-floor">
+          <div class="l-btn-wrapper">
+            <button id="l-btn-4" class="l-button" onclick="callElevator('l', 4)">4</button>
+          </div>
+
+          <div id="l-e-4" class="l-elevator" data-floor="4"></div>
+        </div>
+
+        <div class="l-floor">
+          <div class="l-btn-wrapper">
+            <button id="l-btn-3" class="l-button" onclick="callElevator('l', 3)">3</button>
+          </div>
+
+          <div id="l-e-3" class="l-elevator" data-floor="3"></div>
+        </div>
+
+        <div class="l-floor">
+          <div class="l-btn-wrapper">
+            <button id="l-btn-2" class="l-button" onclick="callElevator('l', 2)">2</button>
+          </div>
+
+          <div id="l-e-2" class="l-elevator" data-floor="2"></div>
+        </div>
+
+        <div class="l-floor">
+          <div class="l-btn-wrapper">
+            <button id="l-btn-1" class="l-button" onclick="callElevator('l', 1)">1</button>
+          </div>
+
+          <div id="l-e-1" class="l-elevator" data-floor="1"></div>
+        </div>
+
+        <div class="l-floor">
+          <div class="l-btn-wrapper">
+            <button id="l-btn-0" class="l-button" onclick="callElevator('l', 0)">0</button>
+          </div>
+
+          <div id="l-e-0" class="l-elevator setled" data-floor="0"></div>
+        </div>
+      </div>
+
+      <!-- ------- SEPARATOR ------- -->
+
+      <div class="right-side">
+        <div class="r-floor">
+          <div id="r-e-6" class="r-elevator" data-floor="6"></div>
+
+          <div class="r-btn-wrapper">
+            <button id="r-btn-6" class="r-button" onclick="callElevator('r', 6)">6</button>
+          </div>
+        </div>
+
+        <div class="r-floor">
+          <div id="r-e-5" class="r-elevator" data-floor="5"></div>
+
+          <div class="r-btn-wrapper">
+            <button id="r-btn-5" class="r-button" onclick="callElevator('r', 5)">5</button>
+          </div>
+        </div>
+
+        <div class="r-floor">
+          <div id="r-e-4" class="r-elevator" data-floor="4"></div>
+
+          <div class="r-btn-wrapper">
+            <button id="r-btn-4" class="r-button" onclick="callElevator('r', 4)">4</button>
+          </div>
+        </div>
+
+        <div class="r-floor">
+          <div id="r-e-3" class="r-elevator" data-floor="3"></div>
+
+          <div class="r-btn-wrapper">
+            <button id="r-btn-3" class="r-button" onclick="callElevator('r', 3)">3</button>
+          </div>
+        </div>
+
+        <div class="r-floor">
+          <div id="r-e-2" class="r-elevator" data-floor="2"></div>
+
+          <div class="r-btn-wrapper">
+            <button id="r-btn-2" class="r-button" onclick="callElevator('r', 2)">2</button>
+          </div>
+        </div>
+
+        <div class="r-floor">
+          <div id="r-e-1" class="r-elevator" data-floor="1"></div>
+
+          <div class="r-btn-wrapper">
+            <button id="r-btn-1" class="r-button" onclick="callElevator('r', 1)">1</button>
+          </div>
+        </div>
+
+        <div class="r-floor">
+          <div id="r-e-0" class="r-elevator setled" data-floor="0"></div>
+
+          <div class="r-btn-wrapper">
+            <button id="r-btn-0" class="r-button" onclick="callElevator('r', 0)">0</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
